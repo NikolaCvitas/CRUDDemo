@@ -1,0 +1,9 @@
+Database DDL & DML
+
+create database library;
+
+use library;
+
+create table books( id int primary key, book_name varchar(20), author_name varchar(20) , isbn varchar(20));
+
+insert into books values(1230, 'Physics', 'HC Verma', '232331200');
